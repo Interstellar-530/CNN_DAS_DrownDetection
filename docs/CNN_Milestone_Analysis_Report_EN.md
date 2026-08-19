@@ -2,7 +2,7 @@
 
 ## 1. Background and alarm rule
 
-The system raises a drowning alert only when a scream and a water splash are detected jointly in an audio window. This "AND" logic determines two features of the evaluation metrics: a missed alarm equals a missed detection of either class, so the joint recall (scream recall x water recall) is the core metric, while the joint false-alarm rate is the product of the two per-class false-positive rates and is usually near zero. All models are four-class CNNs (normal_speech / scream / water_splash / other_non_scream) with 128x128 log-mel spectrogram inputs at a 16 kHz sampling rate.
+The system raises a drowning alert only when a scream and a water splash are detected jointly in an audio window. This "AND" logic determines two features of the evaluation metrics: a missed alarm equals a missed detection of either class, so the joint recall (scream recall x water recall) is the core metric, while the joint false-alarm rate is the product of the two per-class false-positive rates and is usually near zero. All models are four-class CNNs (normal_speech / scream / water_splash / other_non_scream) with 128x128 log-mel spectrogram .
 
 ## 2. Changes in the expected metrics
 
