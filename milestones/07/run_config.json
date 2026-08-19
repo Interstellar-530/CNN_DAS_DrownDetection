@@ -1,0 +1,87 @@
+{
+  "args": {
+    "dataset": "E:\\Working Space\\CNN_v1.0\\data\\cnn_spectrogram_dataset_four_class_v35_water_aug_20260818",
+    "task": "four_class_water",
+    "output": "output\\cnn_runs_v2",
+    "run_name": "four_class_water_v35_water_aug_v33params_20260818",
+    "epochs": 40,
+    "batch_size": 64,
+    "learning_rate": 0.001,
+    "weight_decay": 0.0003,
+    "dropout": 0.5,
+    "model_v2": true,
+    "model_width": 48,
+    "dual_pool": true,
+    "focal_loss": true,
+    "focal_gamma": 1.5,
+    "optimize_metric": "scream_f1",
+    "patience": 6,
+    "min_delta": 0.0001,
+    "seed": 42,
+    "num_workers": 0,
+    "device": "auto",
+    "no_class_weights": false,
+    "class_weight_sqrt": true,
+    "class_weight_cap": 2.0,
+    "no_cache": false,
+    "augment": true,
+    "export_torchscript": true,
+    "eval_only": false,
+    "checkpoint": null
+  },
+  "run_dir": "E:\\Working Space\\CNN_v1.0\\output\\cnn_runs_v2\\four_class_water_v35_water_aug_v33params_20260818",
+  "class_names": [
+    "normal_speech",
+    "scream",
+    "water_splash",
+    "other_non_scream"
+  ],
+  "label_to_index": {
+    "normal_speech": 0,
+    "scream": 1,
+    "water_splash": 2,
+    "other_non_scream": 3
+  },
+  "index_to_label": {
+    "0": "normal_speech",
+    "1": "scream",
+    "2": "water_splash",
+    "3": "other_non_scream"
+  },
+  "train_mean": -13.501340143265939,
+  "train_std": 22.834025203175813,
+  "class_counts": {
+    "train": {
+      "normal_speech": 1200,
+      "scream": 1208,
+      "water_splash": 1097,
+      "other_non_scream": 1200
+    },
+    "val": {
+      "normal_speech": 541,
+      "scream": 172,
+      "water_splash": 32,
+      "other_non_scream": 526
+    },
+    "test": {
+      "normal_speech": 270,
+      "scream": 86,
+      "water_splash": 74,
+      "other_non_scream": 263
+    }
+  },
+  "class_weights": [
+    0.990054726600647,
+    0.9867709279060364,
+    1.0354914665222168,
+    0.990054726600647
+  ],
+  "model_class": "SpectrogramCNNV2",
+  "model_config": {
+    "width": 48,
+    "dual_pool": true,
+    "dropout": 0.5
+  },
+  "torch_version": "2.11.0+cu128",
+  "device": "cuda"
+}
