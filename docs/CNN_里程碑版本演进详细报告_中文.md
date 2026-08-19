@@ -2,7 +2,7 @@
 
 ## 1. 项目背景与报警规则
 
-系统在音频窗口内同时检出尖叫（scream）与落水声（water_splash）时才发布溺水报警。这一"与"逻辑决定了评估指标的两个特征：漏报等于任一类漏检，因此联合召回率（尖叫召回 × 落水召回）是核心；联合误报等于两类误报率的乘积，通常接近零。所有模型均为四分类 CNN（normal_speech / scream / water_splash / other_non_scream），输入 128×128 log-mel 谱图，采样率 16 kHz。
+系统在音频窗口内同时检出尖叫（scream）与落水声（water_splash）时才发布溺水报警。这一"与"逻辑决定了评估指标的两个特征：漏报等于任一类漏检，因此联合召回率（尖叫召回 × 落水召回）是核心；联合误报等于两类误报率的乘积，通常接近零。所有模型均为四分类 CNN（normal_speech / scream / water_splash / other_non_scream），输入 128×128 log-mel 谱图。
 
 ## 2. 期望指标的变化
 
