@@ -36,7 +36,7 @@ The data behind these versions evolved in stages: the original four-class datase
 
 The training objective went through four stages: accuracy (01, 04), scream-F1 (02, 05, 07, 08), dual-recall (09), and late-stage optimization (11 retrain, 13 water fine-tune). This mirrors the shift from "classify correctly on average" to "never miss the rare, safety-critical classes." Figure 1 shows precision (top) and recall (bottom) for overall, scream, water, and joint detection across the milestones.
 
-![Figure 1](E:/Working%20Space/CNN_v1.0/metrics/common_eval_20260818/Figure5_Milestones_precision_recall_en.png)
+![Figure 1](Figure5_Milestones_precision_recall_en.png)
 
 **Figure 1.** Milestone precision (top) and recall (bottom) on the brand-new four-class test set (n = 175). 13 (11 water-optimized) is the final model.
 
