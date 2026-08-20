@@ -1,28 +1,6 @@
 {
   "milestone": "03",
   "description": "Tempered version (macro-F1, stronger regularization)",
-  "fresh_test_metrics_reconstructed_20260820": {
-    "acc": 0.6514285714285715,
-    "macro_p": 0.757725269120781,
-    "macro_r": 0.6791666666666667,
-    "scream_p": 0.8478260869565217,
-    "scream_r": 0.975,
-    "water_p": 0.8064516129032258,
-    "water_r": 0.4166666666666667,
-    "joint_p": 0.6837307152875175,
-    "joint_r": 0.40625,
-    "joint_r_04": 0.43875,
-    "sR04": 0.975,
-    "wR04": 0.45,
-    "normal_p": 1.0,
-    "normal_r": 0.6,
-    "normal_f1": 0.75,
-    "other_p": 0.37662337662337664,
-    "other_r": 0.725,
-    "other_f1": 0.49572649572649574,
-    "probe_fp": 0.0,
-    "water58": 0.0
-  },
   "full_metrics_20260820": {
     "acc": 0.6514285714285715,
     "macro_p": 0.757725269120781,
