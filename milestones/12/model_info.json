@@ -1,4 +1,26 @@
 {
   "milestone": "12",
-  "description": "Probability fusion of 07 and 08"
+  "description": "Probability fusion of 07 and 08",
+  "fresh_test_metrics_reconstructed_20260820": {
+    "acc": 0.6857142857142857,
+    "macro_p": 0.7320361843751564,
+    "macro_r": 0.6860119047619047,
+    "scream_p": 0.8461538461538461,
+    "scream_r": 0.825,
+    "water_p": 0.7068965517241379,
+    "water_r": 0.6833333333333333,
+    "joint_p": 0.5981432360742706,
+    "joint_r": 0.56375,
+    "joint_r_04": 0.6599999999999999,
+    "sR04": 0.9,
+    "wR04": 0.7333333333333333,
+    "normal_p": 0.96,
+    "normal_r": 0.6857142857142857,
+    "normal_f1": 0.8,
+    "other_p": 0.41509433962264153,
+    "other_r": 0.55,
+    "other_f1": 0.4731182795698925,
+    "probe_fp": 0.10891089108910891,
+    "water58": 0.6896551724137931
+  }
 }

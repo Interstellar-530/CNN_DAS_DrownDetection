@@ -1,4 +1,26 @@
 {
   "milestone": "08",
-  "description": "+ fresh FSD50K dev screams"
+  "description": "+ fresh FSD50K dev screams",
+  "fresh_test_metrics_reconstructed_20260820": {
+    "acc": 0.6457142857142857,
+    "macro_p": 0.7098214285714286,
+    "macro_r": 0.6517857142857143,
+    "scream_p": 0.8333333333333334,
+    "scream_r": 0.875,
+    "water_p": 0.6666666666666666,
+    "water_r": 0.6,
+    "joint_p": 0.5555555555555556,
+    "joint_r": 0.525,
+    "joint_r_04": 0.6320833333333333,
+    "sR04": 0.925,
+    "wR04": 0.6833333333333333,
+    "normal_p": 1.0,
+    "normal_r": 0.6571428571428571,
+    "normal_f1": 0.7931034482758621,
+    "other_p": 0.3392857142857143,
+    "other_r": 0.475,
+    "other_f1": 0.3958333333333333,
+    "probe_fp": 0.0,
+    "water58": 0.0
+  }
 }

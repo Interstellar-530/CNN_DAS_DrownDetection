@@ -1,4 +1,26 @@
 {
   "milestone": "05",
-  "description": "Aligned labels, balanced data"
+  "description": "Aligned labels, balanced data",
+  "fresh_test_metrics_reconstructed_20260820": {
+    "acc": 0.5942857142857143,
+    "macro_p": 0.656619136668225,
+    "macro_r": 0.6059523809523809,
+    "scream_p": 0.8333333333333334,
+    "scream_r": 0.625,
+    "water_p": 0.6888888888888889,
+    "water_r": 0.5166666666666667,
+    "joint_p": 0.5740740740740741,
+    "joint_r": 0.3229166666666667,
+    "joint_r_04": 0.3712500000000001,
+    "sR04": 0.675,
+    "wR04": 0.55,
+    "normal_p": 0.7419354838709677,
+    "normal_r": 0.6571428571428571,
+    "normal_f1": 0.696969696969697,
+    "other_p": 0.36231884057971014,
+    "other_r": 0.625,
+    "other_f1": 0.45871559633027525,
+    "probe_fp": 0.0,
+    "water58": 0.0
+  }
 }

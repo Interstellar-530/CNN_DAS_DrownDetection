@@ -1,4 +1,26 @@
 {
   "milestone": "06",
-  "description": "Reference recipe + balanced data"
+  "description": "Reference recipe + balanced data",
+  "fresh_test_metrics_reconstructed_20260820": {
+    "acc": 0.6114285714285714,
+    "macro_p": 0.702734871599288,
+    "macro_r": 0.6261904761904762,
+    "scream_p": 0.8611111111111112,
+    "scream_r": 0.775,
+    "water_p": 0.725,
+    "water_r": 0.48333333333333334,
+    "joint_p": 0.6243055555555556,
+    "joint_r": 0.3745833333333333,
+    "joint_r_04": 0.4,
+    "sR04": 0.8,
+    "wR04": 0.5,
+    "normal_p": 0.8695652173913043,
+    "normal_r": 0.5714285714285714,
+    "normal_f1": 0.6896551724137931,
+    "other_p": 0.35526315789473684,
+    "other_r": 0.675,
+    "other_f1": 0.46551724137931033,
+    "probe_fp": 0.0,
+    "water58": 0.0
+  }
 }

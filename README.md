@@ -20,7 +20,7 @@ Four-class CNN for audio event detection (normal_speech / scream / water_splash 
 
 ## Why version 13
 
-11 looks stronger on the metric table (accuracy 0.663 vs 0.657, macro precision/recall 0.785/0.672 vs 0.724/0.646, probe FP 0.063 vs 0.109) because the macro metrics average the four classes equally, whereas the joint drowning alarm does not - a missed water detection is the safety-critical half. 11's water recall is only 0.52 (0.638 on the 58 real-water holdout); 13 raises it to 0.65 (0.724) and joint recall from 0.491 to 0.617, at the cost of some overall precision and a higher probe FP (0.109). For the alarm application, 13 is the better trade.
+11 looks stronger on the macro table (macro precision/recall 0.823/0.766 vs 0.801/0.761, probe FP 0.063 vs 0.109) because the macro metrics average the four classes equally, whereas the joint drowning alarm does not - a missed water detection is the safety-critical half. On the reconstructed fresh test set (n = 175, low-quality label mismatches replaced with verified same-class clips), 11's water recall is only 0.55 (0.638 on the 58 real-water holdout); 13 raises it to 0.683 (0.724) and joint recall from 0.522 to 0.649 (0.665 at threshold 0.4), while accuracy rises to 0.754 (11: 0.743). For the alarm application, 13 is the better trade.
 
 ## Dataset versions
 
@@ -62,7 +62,7 @@ Four-class CNN for audio event detection (normal_speech / scream / water_splash 
 
 ### 为什么选 13
 
-表格里 11 更好看（准确率 0.663 对 0.657、宏观精确率/召回率 0.785/0.672 对 0.724/0.646、探针误报 0.063 对 0.109），因为宏观指标对四个类等权平均；而联合溺水报警并不等权——落水检出是安全关键半边。11 的落水召回仅 0.52（58 条真实水声基准 0.638），13 提升到 0.65（0.724），联合召回从 0.491 升到 0.617，代价是整体精确率略降、探针误报升至 0.109。对溺水报警应用，13 是更合理的取舍。
+表格里 11 的宏观指标更好看（宏观精确率/召回率 0.823/0.766 对 0.801/0.761、探针误报 0.063 对 0.109），因为宏观指标对四个类等权平均；而联合溺水报警并不等权——落水检出是安全关键半边。在重建后的全新测试集（n=175，已剔除货不对板并用验证过的同类样本替换）上，11 的落水召回仅 0.55（58 条真实水声基准 0.638），13 提升到 0.683（0.724），联合召回从 0.522 升到 0.649（@0.4 为 0.665），准确率升至 0.754（11 为 0.743）。对溺水报警应用，13 是更合理的取舍。
 
 ### 数据集版本说明
 

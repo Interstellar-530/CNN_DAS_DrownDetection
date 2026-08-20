@@ -1,4 +1,26 @@
 {
   "milestone": "10",
-  "description": "08 recipe, 80 epochs"
+  "description": "08 recipe, 80 epochs",
+  "fresh_test_metrics_reconstructed_20260820": {
+    "acc": 0.68,
+    "macro_p": 0.7290688787326685,
+    "macro_r": 0.687202380952381,
+    "scream_p": 0.8085106382978723,
+    "scream_r": 0.95,
+    "water_p": 0.7115384615384616,
+    "water_r": 0.6166666666666667,
+    "joint_p": 0.5752864157119476,
+    "joint_r": 0.5858333333333333,
+    "joint_r_04": 0.6499999999999999,
+    "sR04": 0.975,
+    "wR04": 0.6666666666666666,
+    "normal_p": 1.0,
+    "normal_r": 0.6571428571428571,
+    "normal_f1": 0.7931034482758621,
+    "other_p": 0.39622641509433965,
+    "other_r": 0.525,
+    "other_f1": 0.45161290322580644,
+    "probe_fp": 0.0,
+    "water58": 0.0
+  }
 }

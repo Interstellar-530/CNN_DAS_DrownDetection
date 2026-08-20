@@ -16,7 +16,7 @@
 
 ## Why 13
 
-11 has better macro metrics because they average the four classes equally, but the joint drowning alarm does not: water recall is the safety-critical half. 11's water recall is 0.52 (0.638 real-water), 13's is 0.65 (0.724 real-water); joint recall rises from 0.491 to 0.617. For the alarm application, 13 is the better trade.
+11 has better macro metrics because they average the four classes equally, but the joint drowning alarm does not: water recall is the safety-critical half. On the reconstructed fresh test set, 11's water recall is 0.55 (0.638 real-water), 13's is 0.683 (0.724 real-water); joint recall rises from 0.522 to 0.649 (0.665 at threshold 0.4). For the alarm application, 13 is the better trade.
 
 ## Dataset versions
 
@@ -30,7 +30,7 @@ Original: LibriSpeech dev-clean + Kaggle screams + ESC-50 water approximations (
 
 ### 为什么选 13
 
-11 的宏观指标更好是因为对四类等权平均，而联合报警并不等权：落水召回是安全关键半边。11 的落水召回 0.52（真实水声 0.638），13 为 0.65（真实水声 0.724）；联合召回从 0.491 升到 0.617。对报警应用，13 更合理。
+11 的宏观指标更好是因为对四类等权平均，而联合报警并不等权：落水召回是安全关键半边。在重建后的全新测试集上，11 的落水召回 0.55（真实水声 0.638），13 为 0.683（真实水声 0.724）；联合召回从 0.522 升到 0.649（@0.4 为 0.665）。对报警应用，13 更合理。
 
 ### 数据集版本说明
 

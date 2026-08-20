@@ -1,4 +1,26 @@
 {
   "milestone": "02",
-  "description": "V2 architecture + FSD50K screams"
+  "description": "V2 architecture + FSD50K screams",
+  "fresh_test_metrics_reconstructed_20260820": {
+    "acc": 0.6,
+    "macro_p": 0.6197589612768185,
+    "macro_r": 0.6086309523809523,
+    "scream_p": 0.7755102040816326,
+    "scream_r": 0.95,
+    "water_p": 0.6458333333333334,
+    "water_r": 0.5166666666666667,
+    "joint_p": 0.5008503401360545,
+    "joint_r": 0.49083333333333334,
+    "joint_r_04": 0.53625,
+    "sR04": 0.975,
+    "wR04": 0.55,
+    "normal_p": 0.7307692307692307,
+    "normal_r": 0.5428571428571428,
+    "normal_f1": 0.6229508196721312,
+    "other_p": 0.3269230769230769,
+    "other_r": 0.425,
+    "other_f1": 0.3695652173913043,
+    "probe_fp": 0.0,
+    "water58": 0.0
+  }
 }
